@@ -1,0 +1,2 @@
+C:\Users\alumno\source\repos\VillamizarVictoria-act4\ejercicioN1\obj\Debug\ejercicioN1.csproj.AssemblyReference.cache
+C:\Users\alumno\source\repos\VillamizarVictoria-act4\ejercicioN1\obj\Debug\ejercicioN1.csproj.CoreCompileInputs.cache
