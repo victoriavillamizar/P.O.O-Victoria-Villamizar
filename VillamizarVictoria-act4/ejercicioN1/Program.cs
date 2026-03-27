@@ -14,36 +14,40 @@ namespace ejercicioN1
             //realizar un programa que lea los sueldos que cobra cada empleado e informe cuántos empleados cobran entre $100 y $300 y cuántos
             //cobran másde $300.Además el programa deberá informar el importe que gasta la empresa en sueldos al personal.
 
-            int empleados, sueldo, contador, sueldos_entre100_300, sueldos_mas_300, totalsueldos,i;
+            int empleados, sueldo, contador, sueldos_entre100_300, sueldos_mas_300, totalsueldos;
             string linea;
 
             contador = 0;
-            empleados = 0;
+            totalsueldos = 0;
             sueldos_entre100_300 = 0;
             sueldos_mas_300 = 0;
-            sueldo = 0;
-            totalsueldos = 0;
+            
 
-
-            Console.Write("ingrese cantidad de empleados");
+            Console.Write("ingrese la cantidad de empleados");
             linea = Console.ReadLine();
-            contador = int.Parse(linea);
+            empleados = int.Parse(linea);
 
 
-            while (empleados < contador) {
+            while (empleados >contador) {
                 Console.Write("ingrese cantidad de sueldo ");
                 linea = Console.ReadLine();
-                empleados = int.Parse(linea);
+                sueldo = int.Parse(linea);
 
 
                 if (sueldo > 100 && sueldo < 300){
                     sueldos_entre100_300 = sueldos_entre100_300 + 1;
 
                 }
-                else (sueldo > 300 && sueldo < 500){
+                else{ if(sueldo > 300 && sueldo < 500)
                     sueldos_mas_300 = sueldos_mas_300 + 1;
                 }
                 totalsueldos = totalsueldos + sueldo;
+                contador = contador + 1;
+
+                Console.WriteLine("la cantidad de empleados que hay con sueldo entre 100 y 300 son : " + sueldos_entre100_300);
+                Console.WriteLine("la cantididad de empleados que hay con sueldo mayor a 300 son : " + sueldos_mas_300);
+                Console.WriteLine("el importe total de la empresa es: " + totalsueldos);
+                Console.ReadKey();
 
                 Console.ReadKey();
             }
