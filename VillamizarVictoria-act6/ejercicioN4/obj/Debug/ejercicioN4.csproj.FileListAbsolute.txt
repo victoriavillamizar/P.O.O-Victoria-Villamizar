@@ -1,0 +1,7 @@
+C:\Users\alumno\source\repos\VillamizarVictoria-act6\ejercicioN4\bin\Debug\ejercicioN4.exe.config
+C:\Users\alumno\source\repos\VillamizarVictoria-act6\ejercicioN4\bin\Debug\ejercicioN4.exe
+C:\Users\alumno\source\repos\VillamizarVictoria-act6\ejercicioN4\bin\Debug\ejercicioN4.pdb
+C:\Users\alumno\source\repos\VillamizarVictoria-act6\ejercicioN4\obj\Debug\ejercicioN4.csproj.AssemblyReference.cache
+C:\Users\alumno\source\repos\VillamizarVictoria-act6\ejercicioN4\obj\Debug\ejercicioN4.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\VillamizarVictoria-act6\ejercicioN4\obj\Debug\ejercicioN4.exe
+C:\Users\alumno\source\repos\VillamizarVictoria-act6\ejercicioN4\obj\Debug\ejercicioN4.pdb
