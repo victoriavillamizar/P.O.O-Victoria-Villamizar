@@ -1,7 +1,0 @@
-C:\Users\alumno\source\repos\VillamizarVictoria-act8\ejercicioN2\bin\Debug\ejercicioN2.exe.config
-C:\Users\alumno\source\repos\VillamizarVictoria-act8\ejercicioN2\bin\Debug\ejercicioN2.exe
-C:\Users\alumno\source\repos\VillamizarVictoria-act8\ejercicioN2\bin\Debug\ejercicioN2.pdb
-C:\Users\alumno\source\repos\VillamizarVictoria-act8\ejercicioN2\obj\Debug\ejercicioN2.csproj.AssemblyReference.cache
-C:\Users\alumno\source\repos\VillamizarVictoria-act8\ejercicioN2\obj\Debug\ejercicioN2.csproj.CoreCompileInputs.cache
-C:\Users\alumno\source\repos\VillamizarVictoria-act8\ejercicioN2\obj\Debug\ejercicioN2.exe
-C:\Users\alumno\source\repos\VillamizarVictoria-act8\ejercicioN2\obj\Debug\ejercicioN2.pdb
