@@ -1,0 +1,7 @@
+C:\Users\Usuario\source\repos\VillamizarVictoria-act9\ejercicioN3\bin\Debug\ejercicioN3.exe.config
+C:\Users\Usuario\source\repos\VillamizarVictoria-act9\ejercicioN3\bin\Debug\ejercicioN3.exe
+C:\Users\Usuario\source\repos\VillamizarVictoria-act9\ejercicioN3\bin\Debug\ejercicioN3.pdb
+C:\Users\Usuario\source\repos\VillamizarVictoria-act9\ejercicioN3\obj\Debug\ejercicioN3.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\VillamizarVictoria-act9\ejercicioN3\obj\Debug\ejercicioN3.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\VillamizarVictoria-act9\ejercicioN3\obj\Debug\ejercicioN3.exe
+C:\Users\Usuario\source\repos\VillamizarVictoria-act9\ejercicioN3\obj\Debug\ejercicioN3.pdb
