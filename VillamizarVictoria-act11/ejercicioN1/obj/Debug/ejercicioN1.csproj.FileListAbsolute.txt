@@ -1,0 +1,7 @@
+C:\Users\Alumno\source\repos\VillamizarVictoria-act11\ejercicioN1\obj\Debug\ejercicioN1.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\VillamizarVictoria-act11\ejercicioN1\obj\Debug\ejercicioN1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\VillamizarVictoria-act11\ejercicioN1\bin\Debug\ejercicioN1.exe.config
+C:\Users\Alumno\source\repos\VillamizarVictoria-act11\ejercicioN1\bin\Debug\ejercicioN1.exe
+C:\Users\Alumno\source\repos\VillamizarVictoria-act11\ejercicioN1\bin\Debug\ejercicioN1.pdb
+C:\Users\Alumno\source\repos\VillamizarVictoria-act11\ejercicioN1\obj\Debug\ejercicioN1.exe
+C:\Users\Alumno\source\repos\VillamizarVictoria-act11\ejercicioN1\obj\Debug\ejercicioN1.pdb
