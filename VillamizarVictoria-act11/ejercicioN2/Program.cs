@@ -17,26 +17,43 @@ namespace ejercicioN2
         {
             matri = new int[5][];
 
-            matri[0] = new int[1];
-            matri[1] = new int[2];
-            matri[2] = new int[3];
-            matri[3] = new int[4];
-
             string linea;
 
-            for (int f = 0; f < matri.Length; f++)
+            // estas 4 primeras las dcido yo
+            for (int f = 0; f < 4; f++)
             {
+                Console.WriteLine("ingrese la cantidad de columnas para la fila " + f);
+                linea = Console.ReadLine();
+
+                int columnas = int.Parse(linea);
+
+                matri[f] = new int[columnas];
+
                 for (int c = 0; c < matri[f].Length; c++)
                 {
-                    Console.WriteLine("Ingrese valor para fila " + f + " columna " + c);
+                    Console.WriteLine("ingrese el valor para fila " + f + " columna " + c);
+
                     linea = Console.ReadLine();
+
                     matri[f][c] = int.Parse(linea);
                 }
             }
+
+            // y esta no
+            matri[4] = new int[5];
+
+            for (int c = 0; c < matri[4].Length; c++)
+            {
+                Console.WriteLine("ingrese el valor para fila 4 columna " + c);
+
+                linea = Console.ReadLine();
+
+                matri[4][c] = int.Parse(linea);
+            }
         }
-            public void mostrarMatriz()
+        public void mostrarMatriz()
         {
-            Console.WriteLine("Matriz cargada:");
+            Console.WriteLine("mostrar matriz: ");
 
             for (int f = 0; f < matri.Length; f++)
             {
@@ -44,11 +61,10 @@ namespace ejercicioN2
                 {
                     Console.Write(matri[f][c] + " ");
                 }
-
                 Console.WriteLine();
             }
         }
-       
+
         static void Main(string[] args)
         {
             matrices matrices = new matrices();

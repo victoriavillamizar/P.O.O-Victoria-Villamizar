@@ -1,4 +1,5 @@
 <Solution>
-  <Project Path="ejercicioN1/ejercicioN1.csproj" />
-  <Project Path="ejercicioN2/ejercicioN2.csproj" />
+  <Project Path="ejercicioN1/ejercicioN1.csproj" Id="cfe9a5c4-3aaf-4c57-854c-b7f74961be14" />
+  <Project Path="ejercicioN2/ejercicioN2.csproj" Id="536afa5f-02d6-45b0-b2f2-1f444fba2a5a" />
+  <Project Path="ejercicioN3/ejercicioN3.csproj" Id="c956bd9c-26d0-4ad4-891d-bd33d4977e94" />
 </Solution>
