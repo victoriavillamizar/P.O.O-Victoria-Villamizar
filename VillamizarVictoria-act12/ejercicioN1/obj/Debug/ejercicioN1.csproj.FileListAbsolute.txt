@@ -5,3 +5,10 @@ C:\Users\Alumno\source\repos\VillamizarVictoria-act12\ejercicioN1\obj\Debug\ejer
 C:\Users\Alumno\source\repos\VillamizarVictoria-act12\ejercicioN1\obj\Debug\ejercicioN1.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\source\repos\VillamizarVictoria-act12\ejercicioN1\obj\Debug\ejercicioN1.exe
 C:\Users\Alumno\source\repos\VillamizarVictoria-act12\ejercicioN1\obj\Debug\ejercicioN1.pdb
+C:\Users\alumno.ET26\Downloads\P.O.O-Victoria-Villamizar-main\P.O.O-Victoria-Villamizar-main\VillamizarVictoria-act12\ejercicioN1\bin\Debug\ejercicioN1.exe.config
+C:\Users\alumno.ET26\Downloads\P.O.O-Victoria-Villamizar-main\P.O.O-Victoria-Villamizar-main\VillamizarVictoria-act12\ejercicioN1\bin\Debug\ejercicioN1.exe
+C:\Users\alumno.ET26\Downloads\P.O.O-Victoria-Villamizar-main\P.O.O-Victoria-Villamizar-main\VillamizarVictoria-act12\ejercicioN1\bin\Debug\ejercicioN1.pdb
+C:\Users\alumno.ET26\Downloads\P.O.O-Victoria-Villamizar-main\P.O.O-Victoria-Villamizar-main\VillamizarVictoria-act12\ejercicioN1\obj\Debug\ejercicioN1.csproj.AssemblyReference.cache
+C:\Users\alumno.ET26\Downloads\P.O.O-Victoria-Villamizar-main\P.O.O-Victoria-Villamizar-main\VillamizarVictoria-act12\ejercicioN1\obj\Debug\ejercicioN1.csproj.CoreCompileInputs.cache
+C:\Users\alumno.ET26\Downloads\P.O.O-Victoria-Villamizar-main\P.O.O-Victoria-Villamizar-main\VillamizarVictoria-act12\ejercicioN1\obj\Debug\ejercicioN1.exe
+C:\Users\alumno.ET26\Downloads\P.O.O-Victoria-Villamizar-main\P.O.O-Victoria-Villamizar-main\VillamizarVictoria-act12\ejercicioN1\obj\Debug\ejercicioN1.pdb

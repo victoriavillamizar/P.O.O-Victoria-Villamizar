@@ -26,35 +26,37 @@ namespace ejercicioN1
         private string[] nombres;
         private double[][] peso;
 
-            public void cargarDatos()
+        public void cargarDatos()
+        {
+            
+        nombres = new string[3];
+        peso = new double[3][];
+        string linea;
+
+        for (int f = 0; f < 3; f++)
+        {
+            Console.WriteLine("ingrese el nombre de la sucursal: ");
+            nombres[f] = Console.ReadLine();
+
+            Console.WriteLine("ingrese la cantidad de paquetes enviados: ");
+            linea = Console.ReadLine();
+
+            int cantidad = int.Parse(linea);
+
+            peso[f] = new double[cantidad];
+
+            for (int c = 0; c < peso[f].Length; c++)
             {
-                nombres = new string[3];
-                peso = new double[3][];
-                string linea;
+                Console.WriteLine("ingrese el peso del paquete: " + (c + 1));
+                linea = Console.ReadLine();
 
-                for (int f = 0; f < 3; f++)
-                {
-                    Console.WriteLine("ingrese el nombre de la sucursal: ");
-                    nombres[f] = Console.ReadLine();
-
-                    Console.WriteLine("ingrese la cantidad de paquetes enviados: ");
-                    linea = Console.ReadLine();
-
-                    int cantidad = int.Parse(linea);
-
-                    peso[f] = new double[cantidad];
-
-                    for (int c = 0; c < peso[f].Length; c++)
-                    {
-                        Console.WriteLine("ingrese el peso del paquete: " + (c + 1));
-                        linea = Console.ReadLine();
-
-                        peso[f][c] = double.Parse(linea);
-                    }
-                }
+                peso[f][c] = double.Parse(linea);
             }
+        }
+    }
+        
 
-            public void mostrarPaquetes()
+        public void mostrarPaquetes()
             {
                 Console.WriteLine("paquetes por sucursal: ");
 
@@ -62,12 +64,10 @@ namespace ejercicioN1
                 {
                     Console.WriteLine("sucursal: " + nombres[f]);
 
-                    for (int c = 0; c < peso[f].Length; c++)
-                    {
-                        Console.Write(peso[f][c] + " kg ");
-                    }
-
-                    Console.WriteLine();
+                for (int c = 0; c < peso[f].Length; c++)
+                {
+                    Console.WriteLine("peso del paquete: "+ peso[f][c] + " kg");
+                }
                 }
             }
 
@@ -86,7 +86,7 @@ namespace ejercicioN1
                         suma = suma + peso[f][c];
                     }
 
-                    Console.WriteLine(nombres[f] + ": " + suma + " kg ");
+                    Console.WriteLine(nombres[f] + ": " + suma);
                 }
             }
 
@@ -107,7 +107,7 @@ namespace ejercicioN1
                     }
                 }
 
-                Console.WriteLine("el paquete mas pesado  es: " + mayor + "kg");
+                Console.WriteLine("el paquete mas pesado es: " + mayor);
                 Console.WriteLine("su sucursal fue: " + sucursalMayor);
             }
 
