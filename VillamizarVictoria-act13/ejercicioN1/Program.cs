@@ -31,6 +31,7 @@ namespace ejercicioN1
             Console.WriteLine("nombre del empleado:" + nombre);
             Console.WriteLine("sueldo del empleado:" + sueldo);
         }
+
         public void impuestos()
         {
             if (sueldo > 3000)
