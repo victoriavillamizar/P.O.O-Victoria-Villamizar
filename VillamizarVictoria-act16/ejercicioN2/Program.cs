@@ -20,24 +20,42 @@ namespace ejercicioN2
         private int precio;
         private int stock;
 
+
+        public producto()
+        {
+            Console.WriteLine("ingrese nombre del producto");
+            nombre = Console.ReadLine();
+
+            Console.WriteLine("ingrese precio del producto");
+            string linea = Console.ReadLine();
+            Precio = int.Parse(linea);
+
+            Console.WriteLine("ingrese el stock del producto");
+            linea = Console.ReadLine();
+            Stock = int.Parse(linea);
+
+
+        }
+
         public string Nombre
         {
             set
             {
                 nombre = value;
             }
-            get 
-            { 
-                return nombre; 
+            get
+            {
+                return nombre;
             }
         }
+
         public int Precio
         {
             set
             {
-                if (value < 0)
+                if (value < 1)
                 {
-                    Console.WriteLine("el precio no puede ser menor a 0, ingrese devuelta un numero correcto"); 
+                    Console.WriteLine("el precio no puede ser menor a 0");
                 }
                 else
                 {
@@ -45,20 +63,21 @@ namespace ejercicioN2
                 }
             }
             get {
-                 return precio;
-                }
+                return precio;
             }
+        }
         public int Stock
         {
             set
             {
-                if (value > 0)
+                if (value >= 0)
                 {
                     stock = value;
                 }
                 else
                 {
-                    Console.WriteLine("no, mal, el stock no puede ser negativo lol");
+                    Console.WriteLine("mal el stock no puede ser negativo. lol");
+                    stock = 0;
                 }
             }
             get
@@ -66,12 +85,11 @@ namespace ejercicioN2
                 return stock;
             }
         }
-
         public void Imprimir()
         {
             Console.WriteLine("nombre : " + nombre + " precio: " + precio + " stock: " + stock);
         }
- 
+
         class Inventario
         {
             private producto[] productos;
@@ -96,7 +114,7 @@ namespace ejercicioN2
 
             public void MostrarOrdenados()
             {
-                for (int i = 0; i < productos.Length - 1; i++)
+                for (int i = 0; i < productos.Length; i++)
                 {
                     for (int j = i + 1; j < productos.Length; j++)
                     {
@@ -115,31 +133,19 @@ namespace ejercicioN2
                 {
                     productos[i].Imprimir();
                 }
-
                 Console.WriteLine("producto mas barato:");
                 productos[0].Imprimir();
 
                 Console.WriteLine("producto mas caro:");
-                productos[2].Imprimir();
+                productos[productos.Length - 1].Imprimir();
+             
+            
             }
         }
-
-
         static void Main(string[] args)
         {
-            Inventario inventario = new Inventario();
-            inventario.Productos[0].Nombre = "oleo";
-            inventario.Productos[0].Precio = -20;
-            inventario.Productos[0].Stock = -1;
-
-            inventario.Productos[1].Nombre = "paleta de madera";
-            inventario.Productos[1].Precio = 10000;
-            inventario.Productos[1].Stock = 5;
-
-            inventario.Productos[2].Nombre = "aerosol";
-            inventario.Productos[2].Precio = 12000;
-            inventario.Productos[2].Stock = 8;
-            inventario.MostrarOrdenados();
+            Inventario inventario1 = new Inventario();
+            inventario1.MostrarOrdenados();
 
             Console.ReadKey();
         }

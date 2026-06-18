@@ -70,16 +70,16 @@ namespace ejercicioN1
         }
         static void Main(string[] args)
         {
-            Persona persona = new Persona();
-            persona.Nombre = "maximo";
-            persona.Edad = 16;
-            persona.imprimir();
+            Persona persona1 = new Persona();
+            persona1.Nombre = "maximo";
+            persona1.Edad = 16;
+            persona1.imprimir();
 
-            Empleado empleado = new Empleado();
-            empleado.Nombre = "victoria";
-            empleado.Edad = 17;
-            empleado.Sueldo = 6767;
-            empleado.imprimirsueldo();
+            Empleado empleado1 = new Empleado();
+            empleado1.Nombre = "victoria";
+            empleado1.Edad = 17;
+            empleado1.Sueldo = 6767;
+            empleado1.imprimirsueldo();
             Console.ReadKey();
         }
     }
