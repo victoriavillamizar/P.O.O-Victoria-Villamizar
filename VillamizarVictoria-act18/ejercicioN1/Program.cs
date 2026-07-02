@@ -25,6 +25,8 @@ namespace ejercicioN1
         ● Crear un objeto de la clase PanelSolar, cargar sus datos por consola y comprobar que
         puede acceder tanto a sus propiedades heredadas como a las propias para realizar la
         muestra de información.*/
+
+       
         private string codigoIdentificador;
         private double generacionKwh;
         public string CodigoIdentificador
@@ -36,7 +38,7 @@ namespace ejercicioN1
         {
             set
             {
-                if (generacionKwh > 0)
+                if (value > 0)
                 {
                     generacionKwh = value;
                 }
@@ -49,8 +51,8 @@ namespace ejercicioN1
         }
         public void Imprimir()
         {
-            Console.WriteLine("codigo identificador" + codigoIdentificador);
-            Console.WriteLine("Kilowatts-hora generados" + generacionKwh);
+            Console.WriteLine("codigo identificador: " + codigoIdentificador);
+            Console.WriteLine("Kilowatts-hora generados: " + generacionKwh);
         }
 
         class PanelSolar : DispositivoEnergia
@@ -60,7 +62,7 @@ namespace ejercicioN1
             {
                 set
                 {
-                    if (areaMetros > 0)
+                    if (value > 0)
                     {
                         areaMetros = value;
                     }
@@ -73,25 +75,36 @@ namespace ejercicioN1
             }
             public void imprimir2()
             {
-                Console.WriteLine("area metros: " + areaMetros);
-                Console.WriteLine("codigo identificador" + codigoIdentificador);
-                Console.WriteLine("generacion kwh" + generacionKwh);
+                Console.WriteLine("area en metros cuadrados: " + areaMetros);
+                Console.WriteLine("codigo identificador: " + codigoIdentificador);
+                Console.WriteLine("generacion kwh: " + generacionKwh);
             }
-           /* En el programa principal(Main):
-        ● Crear un objeto de la clase DispositivoEnergia, ingresar valores y probar su impresión.
-        ● Crear un objeto de la clase PanelSolar, cargar sus datos por consola y comprobar que
-        puede acceder tanto a sus propiedades heredadas como a las propias para realizar la
-        muestra de información.*/
         }
 
         static void Main(string[] args)
         {
-            DispositivoEnergia dispositivoEnergia1= new DispositivoEnergia();
-            dispositivoEnergia1.codigoIdentificador = "123454";
-            dispositivoEnergia1.generacionKwh = 54;
+            DispositivoEnergia dispositivoEnergia1 = new DispositivoEnergia();
+            Console.Write("ingrese el codigo identificador: ");
+            dispositivoEnergia1.CodigoIdentificador = Console.ReadLine();
+
+            Console.Write("ingrese los Kilowatts-hora generados: ");
+            dispositivoEnergia1.GeneracionKwh = double.Parse(Console.ReadLine());
+
+            Console.WriteLine();
+            dispositivoEnergia1.Imprimir();
+            Console.WriteLine();
 
             PanelSolar solar1 = new PanelSolar();
-            solar1.AreaMetros 
+            Console.Write("ingrese el codigo identificador del panel: ");
+            solar1.CodigoIdentificador = Console.ReadLine();
+            Console.Write("ingrese los Kilowatts-hora generados: ");
+            solar1.GeneracionKwh = double.Parse(Console.ReadLine());
+            Console.Write("ingrese el area en metros cuadrados: ");
+            solar1.AreaMetros = double.Parse(Console.ReadLine());
+            Console.WriteLine();
+            solar1.imprimir2();
+
+            Console.ReadKey();
 
         }
     }
