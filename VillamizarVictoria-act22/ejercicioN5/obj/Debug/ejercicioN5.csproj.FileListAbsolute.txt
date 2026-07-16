@@ -1,0 +1,7 @@
+C:\Users\Usuario\source\repos\VillamizarVictoria-act22\ejercicioN5\bin\Debug\ejercicioN5.exe.config
+C:\Users\Usuario\source\repos\VillamizarVictoria-act22\ejercicioN5\bin\Debug\ejercicioN5.exe
+C:\Users\Usuario\source\repos\VillamizarVictoria-act22\ejercicioN5\bin\Debug\ejercicioN5.pdb
+C:\Users\Usuario\source\repos\VillamizarVictoria-act22\ejercicioN5\obj\Debug\ejercicioN5.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\VillamizarVictoria-act22\ejercicioN5\obj\Debug\ejercicioN5.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\VillamizarVictoria-act22\ejercicioN5\obj\Debug\ejercicioN5.exe
+C:\Users\Usuario\source\repos\VillamizarVictoria-act22\ejercicioN5\obj\Debug\ejercicioN5.pdb
